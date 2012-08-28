@@ -1,5 +1,4 @@
 
-
 fc.addDays = addDays;
 fc.cloneDate = cloneDate;
 fc.parseDate = parseDate;
@@ -342,6 +341,7 @@ var dateFormatters = {
 	MMMM: function(d,o)	{ return o.monthNames[d.getMonth()] },
 	yy	: function(d)	{ return (d.getFullYear()+'').substring(2) },
 	yyyy: function(d)	{ return d.getFullYear() },
+	ปปปป: function(d)	{ return d.getFullYear()+543 },
 	t	: function(d)	{ return d.getHours() < 12 ? 'a' : 'p' },
 	tt	: function(d)	{ return d.getHours() < 12 ? 'am' : 'pm' },
 	T	: function(d)	{ return d.getHours() < 12 ? 'A' : 'P' },
